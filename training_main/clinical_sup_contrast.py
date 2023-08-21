@@ -1,4 +1,4 @@
-from kaggle/working/SupCon_OCT_Clinical/config.config_supcon import parse_option
+from config.config_supcon import parse_option
 from utils.utils_supcon import set_loader,set_model_contrast
 from utils.utils import set_optimizer, adjust_learning_rate,save_model
 import os
